@@ -1,0 +1,26 @@
+﻿<Window x:Class="_1._2._05._01_Saver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1._2._05._01_Saver"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MouseWheel="Window_MouseWheel">
+    <Grid  HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="770">
+       
+        <TextBlock Text="N" FontSize="18" Margin="5,0,0,0" Grid.ColumnSpan="2"></TextBlock>
+        <TextBlock Margin="43.7,0,75,0" FontSize="18" Grid.Column="1"><Run Text="Name"/></TextBlock>
+        <TextBlock Margin="218.7,0,250,0" FontSize="18" Grid.Column="1"><Run Text="SurName"/></TextBlock>
+        <TextBlock Margin="418.7,0,0,0" FontSize="18" Text="Age" Grid.Column="1"></TextBlock>
+        <TextBlock Text="Proffesion" Margin="518.7,0,0,0" FontSize ="18" Grid.Column="1"></TextBlock>
+        <Button Content="Prev" Height="30" Width="75" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="38.7,0,0,0" Click="Button_Click" Grid.Column="1"/>
+        <Button x:Name="Button_Next" Content="Next" Width="75" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,70,0" Click="Button_Next_Click" Grid.Column="1"/>
+        <Grid x:Name="grid" HorizontalAlignment="Left" Height="400" Margin="10,10,-10,-10" VerticalAlignment="Top" Width="770" Grid.ColumnSpan="2"></Grid>
+    </Grid>
+
+
+
+
+
+
+</Window>
